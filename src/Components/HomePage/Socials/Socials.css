@@ -1,0 +1,50 @@
+.social-container {
+  position: relative;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color:#002B5B ;
+}
+
+.secondaryContainor {
+  background-color:#EA5455 ;
+  position: absolute;
+  right: 0;
+  margin-top:-250px !important;
+  height: 140%;
+  width: 45.5vw;
+}
+/* #f5d8b2 */
+.SocialContactContainer {
+  position: relative;
+  background-color: rgb(223, 218, 195);
+  max-width: 350px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  border-radius: 30px;
+  margin: 0 auto;
+
+  z-index: 1; 
+}
+
+.social-icons a img {
+max-height: 60px;
+  max-width: 60px; 
+  margin: 0 10px;
+  margin-top: 30px;
+}
+/*  <a href="https://www.instagram.com/_.holllayyy/" target="_blank" rel="noopener noreferrer">
+            <img src={instagramIcon} alt="Instagram" />
+          </a>
+          
+          ALL OTHER IMAGES ARE FROM THIS AS WELL*/
+@media only screen and (max-width: 767px) {
+  .SocialContactContainer {
+    max-width: 300px; 
+    
+  }
+  .secondaryContainor {
+    display: none;
+  }
+}
+/* start looking towards completing the contact, portfolio, and resume */

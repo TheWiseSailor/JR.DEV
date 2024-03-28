@@ -1,0 +1,93 @@
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #EA5455;
+}
+
+.resume-container {
+  padding-top: 100px;
+}
+
+.resume-welcome-box {
+  text-align: center;
+  
+}
+
+
+.resume h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.resumePic {
+  height: 350px;
+  width: auto;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.link-box2 {
+
+  padding-bottom: 30px;
+  text-align: center;
+
+}
+.resume-button{
+  display: inline-block;
+  max-height: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 18px 10px 10px;
+  background: none;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  width: 200px;
+  color: black;
+  margin-top: 25px;
+}
+.resume-link {
+  display: inline-block;
+  max-height: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 18px 10px 10px;
+  background: none;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  width: 200px;
+  color: black;
+  margin-top: 25px;
+}
+
+.resume-link:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 769px) {
+  .resumePic {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .resumePic {
+    height: 250px;
+  }
+
+  .resume-link {
+    width: 220px;
+    font-size: 20px;
+  }
+}

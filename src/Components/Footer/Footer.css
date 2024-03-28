@@ -1,0 +1,15 @@
+.footer {
+  position: relative; 
+  z-index: 2; 
+  background-color: #008080;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 1px 0;
+  text-align: center;
+}
+
+.footer.contact {
+  background-color: #5E5946; 
+  color: white; 
+}

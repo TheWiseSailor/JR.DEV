@@ -1,0 +1,87 @@
+.AboutBG {
+  background-color: #d9bfb1;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+}
+.H2Header{
+  text-align: center;
+}
+.about-me-container-primary {
+  display: flex;
+
+  align-items: center; 
+  padding-top: 200px;
+  padding-bottom: 250px;
+  max-width: 1050px;
+}
+
+/* ABContainer */
+.ABContainer{
+padding: 70px;
+
+}
+.profile-picture {
+  max-width: 400px; 
+
+  border-radius: 30px;
+  height: auto;
+}
+
+.about-me-text {
+  flex: 1; 
+}
+
+.about-me-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-me-text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* AboutMeP */
+
+.AboutMeP{
+  max-width: 400px;
+}
+
+/* media queries */
+
+@media (min-width: 769px) {
+  .H2Header{
+font-weight: bolder;
+font-size: 30px;
+  }
+.ABContainer{
+
+  font-weight: 600;
+  font-size: 20px;
+}
+}
+
+@media (max-width: 768px) {
+  .about-me-container-primary {
+    flex-direction: column-reverse;
+    align-items: center;
+    
+  }
+
+  .ABContainer {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .profile-picture {
+    max-width: 100vw;
+margin-top: -400px;
+margin-bottom: 100px;
+border-radius: 0%;
+  }
+  .AboutMeP{
+    font-size: 20px;
+    margin-bottom: -50px;
+  }
+}

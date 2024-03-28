@@ -1,0 +1,106 @@
+.HomePagePrimary {
+  background-color:#002B5B ;
+
+  height: 92.71vh;
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+}
+
+/* HOLLY IMAGE */
+.AMI1 {
+ min-width: 25vw;
+  max-height: 50vh;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+/* <a href="https://www.freepik.com/free-photo/operation-process-performance-development-icon_2792081.htm#fromView=search&page=1&position=44&uuid=01adec4a-51bd-4c4d-a4f2-5f8fd89a808a">Image by rawpixel.com on Freepik</a> */
+.Section1 {
+  display: flex; 
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.P1 {
+  margin-top: 150px;
+  color: white;
+  font-weight: bolder;
+  font-size: 40px !important;
+}
+
+.LeftBackground {
+  background-color:#EA5455;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 120vh; 
+  width: 33.5vw;
+}
+
+@media (min-width: 769px) {
+  .Section1 {
+    display: flex; 
+    max-width: 1100px;
+    margin: 0 auto;
+ 
+  }
+  .LeftBackground {
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    width: 33.5vw;
+  }
+  
+  .P1{
+    padding-left: 150px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .P2{
+    display: none;
+  }
+}
+
+/* P2 MOBILE CONFIG */
+
+@media (max-width: 1244px) {
+  .P1 {display: none;}
+
+}
+@media (max-width: 1644px) {
+
+
+}
+@media (max-width: 767px) {
+  .LeftBackground {
+    display: none;
+
+  }
+
+  /* HERO AND P1 */
+  .HomePagePrimary {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .AMI1 {
+    max-width: 300px;
+    margin-top: 100px ;
+  
+  }
+
+  .P2 {
+    margin-left: 0; 
+    margin-top: 20px; 
+    max-width: 330px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+  }
+}

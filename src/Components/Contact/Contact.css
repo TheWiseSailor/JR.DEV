@@ -1,0 +1,83 @@
+.contact-container-form-page {
+  background-color: #AE887B;
+  height: 100vh;
+  margin-top: -21px;
+  margin-bottom: -45px;
+}
+.contact-container-form-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #AE887B;
+  height: 100vh;
+  margin-top: -21px;
+  margin-bottom: -45px;
+}
+.ContactHomePageHeader-container-page{
+  text-align: center;
+  color: #5E5946;
+}
+.contact-form-container-page {
+  width: 90%;
+  max-width: 400px; 
+  padding: 20px;
+  background-color: #F0DED0;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query for mobile view */
+@media only screen and (max-width: 767px) {
+  .contact-form-container-page {
+width: 300px;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-container input,
+.form-container textarea {
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  background-color: #d9bfb1; 
+}
+
+.form-container button {
+  padding: 10px;
+  background-color: #8e6b5f;
+  margin: 0 auto;
+  color: #F0DED0;
+  
+  min-width: 200px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #61bd23;
+}
+
+
+.SuccessMessageBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #AE887B; 
+  height: 100vh;
+}
+
+.SuccessMessage {
+  text-align: center;
+  padding: 20px;
+  background-color: #4CAF50;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  border-radius: 5px;
+}

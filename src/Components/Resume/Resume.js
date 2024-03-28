@@ -41,4 +41,3 @@ export const Resume = () => {
   );
 };
 
-//spruce up the website a bit more

@@ -6,17 +6,17 @@
   z-index: 1000;
 }
 .HeaderPrimary.contact {
-  background-color: #5E5946; 
+  background-color: #000000; 
   color: white; 
 }
-
+.HeaderPrimary.portfolio {
+  background-color: #dddddd;
+}
 .header {
   margin: 0 auto;
 }
 
-.HeaderPrimary.esports {
-  color: black;
-}
+
 
 .header.esports {
   position: relative;

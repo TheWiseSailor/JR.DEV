@@ -8,9 +8,12 @@ export const Resume = () => {
     "https://drive.google.com/file/d/1OJFbFOo9bIljhYRhJn6LSCQhvQ3kinw-/view?usp=sharing";
 
   return (
+    
     <section className="resume-background" id="resume-background">
+        
       <div className="container-resume">
         <div className="resume-welcome-box">
+        <div className='secondaryContainor'></div>
           <img className="resumePic" src={profilePic} alt="profile picture" />
           <div className="link-box">
             <a
@@ -33,6 +36,8 @@ export const Resume = () => {
           </div>
         </div>
       </div>
+
     </section>
+    
   );
 };

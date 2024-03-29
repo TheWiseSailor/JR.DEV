@@ -17,6 +17,7 @@
   margin-bottom: 20px;
   margin-top: 200px;
 border-radius: 40px;
+z-index: 0;
 }
 
 .link-box {
@@ -24,6 +25,7 @@ border-radius: 40px;
   justify-content: center;
   align-items: center;
   margin-top: -80px;
+  z-index: 1;
 }
 
 .resume-button {
@@ -46,4 +48,13 @@ font-size: 13px;
   background-color: #53ff29;
   color: #000000;
   font-weight: bold;
+}
+/* SECONDARY CONTAINER */
+.secondaryContainor {
+  background-color:#d9bfb1 ;
+  position: absolute;
+
+  left: 0;
+  height: 120%;
+  width: 45.5vw;
 }

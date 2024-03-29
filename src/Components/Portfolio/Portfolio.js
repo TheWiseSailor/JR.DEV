@@ -89,7 +89,7 @@ function App() {
       category: "Projects",
       imgUrl: jrportfoliov2,
       githubLink: "https://github.com/TheWiseSailor/professional-react-portfolio",
-      deployLink: "",
+      deployLink: "thewisesailor.github.io/JR.CO",
     },
     {
       title: "JR Portfolio V1",

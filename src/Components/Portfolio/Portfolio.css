@@ -47,7 +47,7 @@ margin-bottom: 15px;
 }
 
 .project {
-  border: 1px solid #ddd;
+  border: 1px solid #000000;
   padding: 20px;
   border-radius: 15px;
   background-color: #d9bfb1;
@@ -75,13 +75,15 @@ margin-bottom: 15px;
   padding: 6px 12px;
   margin-right: 10px;
   font-size: 16px;
-  color: #333;
+  font-weight: bold;
+  color: #000000;
   text-decoration: none;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   border-radius: 5px;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
 .project-links a:hover {
-  background-color: #ddd;
+  background-color: #10f51b;
+  color: black;
 }

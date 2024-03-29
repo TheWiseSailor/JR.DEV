@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JR.DEV/static/css/main.438ef83d.css",
-    "main.js": "/JR.DEV/static/js/main.56e99370.js",
+    "main.css": "/JR.DEV/static/css/main.b5b625d1.css",
+    "main.js": "/JR.DEV/static/js/main.4e1e5977.js",
     "static/js/453.8b63aad3.chunk.js": "/JR.DEV/static/js/453.8b63aad3.chunk.js",
     "static/media/AMI1.png": "/JR.DEV/static/media/AMI1.518bd6e17c6f403c7cf7.png",
     "static/media/WeatherDashboard.png": "/JR.DEV/static/media/WeatherDashboard.76f773a566de1a010254.png",
@@ -29,12 +29,12 @@
     "static/media/PWA.png": "/JR.DEV/static/media/PWA.6e56b1a6f05327751cb3.png",
     "static/media/logo.png": "/JR.DEV/static/media/logo.624ffe461005f0d18cf2.png",
     "index.html": "/JR.DEV/index.html",
-    "main.438ef83d.css.map": "/JR.DEV/static/css/main.438ef83d.css.map",
-    "main.56e99370.js.map": "/JR.DEV/static/js/main.56e99370.js.map",
+    "main.b5b625d1.css.map": "/JR.DEV/static/css/main.b5b625d1.css.map",
+    "main.4e1e5977.js.map": "/JR.DEV/static/js/main.4e1e5977.js.map",
     "453.8b63aad3.chunk.js.map": "/JR.DEV/static/js/453.8b63aad3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.438ef83d.css",
-    "static/js/main.56e99370.js"
+    "static/css/main.b5b625d1.css",
+    "static/js/main.4e1e5977.js"
   ]
 }

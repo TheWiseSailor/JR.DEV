@@ -12,6 +12,7 @@ const App = () => {
       <div>
         <Header />
         <Routes> 
+        <Route path="/JR.DEV" element={<HomeRender />} />
           <Route path="/" element={<HomeRender />} /> 
           <Route path="/resume" element={<Resume />} /> 
           <Route path="/contact" element={<Contact />} /> 

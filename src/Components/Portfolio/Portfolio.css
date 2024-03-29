@@ -4,8 +4,16 @@
   padding: 20px;
   min-height: 100vh;
   margin-bottom: 100px;
+  padding-top: 90px;
 }
-
+.PortfolioBg{
+  background-color: #002B5B;
+min-height: 100vh !important;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  padding-bottom: 20px;
+}
+/* background-color: #002B5B; */
 .selections {
   margin-bottom: 20px;
   text-align: center;
@@ -13,6 +21,7 @@
 
 .selections button {
   margin-right: 10px;
+  width: 150px;
   padding: 8px 16px;
   font-size: 16px;
   border: 1px solid #ccc;

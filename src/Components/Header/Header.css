@@ -13,6 +13,9 @@
   background-color: #002B5B;
   max-height: 30px;
 }
+.HeaderPrimary.portfolio {
+  background-color: #d9bfb1;
+}
 .header {
   margin: 0 auto;
 }

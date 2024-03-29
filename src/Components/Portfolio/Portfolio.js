@@ -47,8 +47,8 @@ function App() {
       githubLink: "https://github.com/TheWiseSailor/Fitness-Flavors",
       deployLink: "https://thewisesailor.github.io/Fitness-Flavors/",
     },
-    { title: 'Future Project 1', category: 'Future Projects' },
-    { title: 'Future Project 2', category: 'Future Projects' },
+    // { title: 'Future Project 1', category: 'Future Projects' },
+    // { title: 'Future Project 2', category: 'Future Projects' },
     {
       title: "Holly.CO",
       category: "Projects",
@@ -172,6 +172,7 @@ function App() {
   const filteredProjects = projects.filter(project => project.category === selectedOption);
 
   return (
+    <div className='PortfolioBg'>
     <div className="portfoliocontainer">
       <div className="selections">
         <button onClick={() => setSelectedOption('Projects')}>Projects</button>
@@ -191,6 +192,7 @@ function App() {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 }

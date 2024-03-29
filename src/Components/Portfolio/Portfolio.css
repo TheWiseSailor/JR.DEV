@@ -1,5 +1,5 @@
 .portfoliocontainer {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 20px;
   min-height: 100vh;
@@ -8,6 +8,7 @@
 
 .selections {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .selections button {
@@ -22,7 +23,7 @@
 .projectList {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 20px;
+  grid-gap: 80px;
 }
 
 .project {

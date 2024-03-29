@@ -50,11 +50,11 @@ font-size: 13px;
   font-weight: bold;
 }
 /* SECONDARY CONTAINER */
-.secondaryContainor {
+.secondaryContainor-2 {
   background-color:#d9bfb1 ;
   position: absolute;
 
   left: 0;
-  height: 120%;
+  height: 94%;
   width: 45.5vw;
 }

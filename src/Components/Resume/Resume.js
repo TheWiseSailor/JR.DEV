@@ -13,7 +13,7 @@ export const Resume = () => {
         
       <div className="container-resume">
         <div className="resume-welcome-box">
-        <div className='secondaryContainor'></div>
+        <div className='secondaryContainor-2'></div>
           <img className="resumePic" src={profilePic} alt="profile picture" />
           <div className="link-box">
             <a

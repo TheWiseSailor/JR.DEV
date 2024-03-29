@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import profilePic from "../Resume/images/Joseph.png";
 import resumePDF from "../Resume/Resume.pdf";
 import "./Resume.css";
+
 export const Resume = () => {
   const onlineResumeLink =
     "https://drive.google.com/file/d/1OJFbFOo9bIljhYRhJn6LSCQhvQ3kinw-/view?usp=sharing";
@@ -10,11 +11,8 @@ export const Resume = () => {
     <section className="resume-background" id="resume-background">
       <div className="container-resume">
         <div className="resume-welcome-box">
-          <h1 className="resume-welcome">
-        
-          </h1>
           <img className="resumePic" src={profilePic} alt="profile picture" />
-          <div class="link-box2">
+          <div className="link-box">
             <a
               className="resume-button"
               href={resumePDF}
@@ -24,10 +22,8 @@ export const Resume = () => {
             >
               Download Resume!
             </a>
-          </div>
-          <div class="link-box1 pb-32">
             <a
-              className="resume-link"
+              className="resume-button"
               href={resumePDF}
               target="_blank"
               rel="noreferrer"
@@ -40,4 +36,3 @@ export const Resume = () => {
     </section>
   );
 };
-

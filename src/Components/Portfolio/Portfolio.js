@@ -178,6 +178,7 @@ function App() {
         <button onClick={() => setSelectedOption('Projects')}>Projects</button>
         <button onClick={() => setSelectedOption('Group Projects')}>Group Projects</button>
         <button onClick={() => setSelectedOption('Future Projects')}>Future Projects</button>
+        <button onClick={() => setSelectedOption('Future Projects')}>Preset Layouts</button>
       </div>
       <div className='projectList'>
         {filteredProjects.map((project, index) => (

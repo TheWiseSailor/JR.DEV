@@ -7,7 +7,7 @@ export const Resume = () => {
     "https://drive.google.com/file/d/1OJFbFOo9bIljhYRhJn6LSCQhvQ3kinw-/view?usp=sharing";
 
   return (
-    <section className="resume" id="resume">
+    <section className="resume-background" id="resume-background">
       <div className="container-resume">
         <div className="resume-welcome-box">
           <h1 className="resume-welcome">

@@ -1,5 +1,4 @@
 .footer {
-
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -14,4 +13,8 @@
 
 .footer.contact {
   background-color: #5e5946;
+}
+
+.footer.resume {
+  background-color: #002B5B;
 }

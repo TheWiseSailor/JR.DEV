@@ -9,8 +9,9 @@
   background-color: #000000; 
   color: white; 
 }
-.HeaderPrimary.portfolio {
-  background-color: #dddddd;
+.HeaderPrimary.resume {
+  background-color: #002B5B;
+  max-height: 30px;
 }
 .header {
   margin: 0 auto;

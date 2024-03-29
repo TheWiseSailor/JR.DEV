@@ -3,22 +3,21 @@ import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import logo from './HeaderImages/logo.png';
-import './Header.css';
+import './Header.css'; 
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isContactClicked, setIsContactClicked] = useState(false);
-  const [isResumeClicked, setIsResumeClicked] = useState(false); // Define state for Resume
-  const [isPortfolioClicked, setIsPortfolioClicked] = useState(false); // Define state for Portfolio
+  const [isResumeClicked, setIsResumeClicked] = useState(false); 
+  const [isPortfolioClicked, setIsPortfolioClicked] = useState(false); 
   const location = useLocation();
 
   useEffect(() => {
     const { pathname } = location;
-    setIsContactClicked(pathname === '/Contact');
-    setIsResumeClicked(pathname === '/Resume');
-    setIsPortfolioClicked(pathname === '/Portfolio');
+    setIsContactClicked(pathname.toLowerCase() === '/contact');
+    setIsResumeClicked(pathname.toLowerCase() === '/resume');
+    setIsPortfolioClicked(pathname.toLowerCase() === '/portfolio');
   }, [location]);
-
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };

@@ -2,16 +2,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background-color: #EA5455;
-  margin-top: -100px;
-}
 
+}
+.resume-background{
+  min-height: 90vh;
+  background-color: #EA5455;
+margin-top: -50px;
+}
 
 
 .resume-welcome-box {
   text-align: center;
-  
+  padding-top: 100px;
 }
 
 

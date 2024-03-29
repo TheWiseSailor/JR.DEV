@@ -58,3 +58,10 @@ font-size: 13px;
   height: 94%;
   width: 45.5vw;
 }
+
+@media (max-width: 767px) {
+  .resumePic {
+    margin-top: 100px;
+    max-width: 320px;
+  }
+}

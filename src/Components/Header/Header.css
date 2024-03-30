@@ -94,7 +94,7 @@
   min-width: 100px;
   margin-left: -10px;
   border-radius: 0 0 10px 10px;
-  background-color: #E7E5D9;
+  background-color: rgb(0, 112, 115);
 }
 
 @media (max-width: 768px) {
@@ -111,7 +111,7 @@
 
   .navbar ul li a {
     text-decoration: none;
-    color: #D9BFB1;
+    color: #fdfdfd;
     transition: color 0.3s ease;
   }
 

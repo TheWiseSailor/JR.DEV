@@ -85,6 +85,6 @@ margin-bottom: 15px;
 }
 
 .project-links a:hover {
-  background-color: #10f51b;
-  color: black;
+  background-color: rgb(0, 112, 115);
+  color: rgb(255, 255, 255);
 }

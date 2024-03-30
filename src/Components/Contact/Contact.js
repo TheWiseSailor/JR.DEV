@@ -1,11 +1,10 @@
 // Contact.js
 import React from 'react';
-import './Contact.css';
+import './Contact.css'
 import { useForm, ValidationError } from '@formspree/react';
 
 function Contact() {
-  const formKey = process.env.REACT_APP_FORMSPREE_API_KEY; 
-  const [state, handleSubmit] = useForm(formKey);
+  const [state, handleSubmit] = useForm("meqyrlwe");
 
   if (state.succeeded) {
     return <div className='SuccessMessageBackground'><p className=' SuccessMessage'>Success!<br/> I will be in touch!</p></div>;
@@ -13,9 +12,12 @@ function Contact() {
 
   return (
     <div className="contact-container-form-page">
-      <div className="contact-form-container-page" data-aos="fade-down" data-aos-duration="3000">
+      
+      <div className="contact-form-container-page" data-aos="fade-down"
+              data-aos-duration="3000">
         <h2 className="ContactHomePageHeader-container-page">Contact</h2>
         <form onSubmit={handleSubmit} className="form-container">
+   
           <input
             id="name"
             type="text"
@@ -23,6 +25,7 @@ function Contact() {
             placeholder="Your Name"
             required
           />
+
           <input
             id="email"
             type="email"
@@ -30,18 +33,21 @@ function Contact() {
             placeholder="Your Email Address"
             required
           />
+       
           <input
             id="phone"
             type="tel"
             name="phone"
             placeholder="Your Phone Number"
           />
+      
           <input
             id="subject"
             type="text"
             name="subject"
             placeholder="Subject of your message"
           />
+     
           <textarea
             id="message"
             name="message"
@@ -51,6 +57,7 @@ function Contact() {
           <button type="submit" disabled={state.submitting} className="button-container-page">
             Submit
           </button>
+     
           <ValidationError
             prefix="Email"
             field="email"
@@ -64,6 +71,12 @@ function Contact() {
         </form>
       </div>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <Contact />
   );
 }
 

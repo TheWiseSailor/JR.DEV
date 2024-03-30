@@ -7,7 +7,7 @@ import { Resume } from '../src/Components/Resume/Resume';
 import Contact from '../src/Components/Contact/Contact'; 
 import Portfolio from '../src/Components/Portfolio/Portfolio'; 
 const App = () => {
-  const formKey = process.env.REACT_APP_FORMSPREE_KEY;
+
   return (
     <Router>
       <div>

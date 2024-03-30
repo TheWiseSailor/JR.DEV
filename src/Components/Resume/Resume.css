@@ -33,11 +33,11 @@ z-index: 0;
   color: #000000;
   font-weight: bolder;
   text-align: center;
-  width: 120px;
+min-width: 130px;
 
 font-size: 13px;
-  padding: 10px 10px;
-  margin: 0 10px;
+  padding: 5px 10px;
+  margin: 0 5px;
   border: 2px solid #EA5455;
   text-decoration: none;
   border-radius: 25px;
@@ -61,7 +61,7 @@ font-size: 13px;
 
 @media (max-width: 767px) {
   .resumePic {
-    margin-top: 100px;
-    max-width: 320px;
+    margin-top: 110px;
+    max-width: 340px;
   }
 }

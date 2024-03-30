@@ -1,5 +1,9 @@
+.ContactHomePageHeader-container-page{
+  text-align: center;
+}
+
 .contact-container-form-page {
-  background-color: #AE887B;
+
   height: calc(100vh - 66px); 
 }
 
@@ -7,7 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #AE887B;
+  background-color: #002B5B;
   height: calc(100vh - 66px);
 }
 
@@ -16,7 +20,7 @@
   max-width: 400px; 
   margin-top: -100px; 
   padding: 20px;
-  background-color: #F0DED0;
+  background-color:#EA5455;
   border-radius: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -44,13 +48,15 @@
 
 .form-container button {
   padding: 10px;
-  background-color: #8e6b5f;
+  background-color: #d9bfb1;
   margin: 0 auto;
-  color: #F0DED0;
+  color: #000000;
   min-width: 200px;
   border: none;
   border-radius: 25px;
   cursor: pointer;
+  font-size: 15px;
+  font-weight: bolder;
   transition: background-color 0.3s ease;
 }
 
@@ -73,4 +79,5 @@
   color: rgb(0, 0, 0);
   font-weight: bolder;
   border-radius: 5px;
+
 }

@@ -19,13 +19,11 @@ const Social = () => {
         <h2>Contact Me!</h2>
         <div className="social-icons">
          
-          <a href="mailto:Hollylynne16@gmail.com" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:Rudasilljosephr@gmail.com" target="_blank" rel="noopener noreferrer">
             <img src={mailIcon} alt="Email" />
           </a>
-          <a href="asdadw" onClick={handleCall}>
-                    <img src={phoneIcon} alt="Phone" />
-                </a>
-          <a href="https://www.instagram.com/_.holllayyy/" target="_blank" rel="noopener noreferrer">
+
+          <a href="https://github.com/TheWiseSailor" target="_blank" rel="noopener noreferrer">
             <img src={github} alt="github" />
           </a>
         

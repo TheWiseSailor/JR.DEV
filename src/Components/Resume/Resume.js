@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import profilePic from "../Resume/images/Joseph.png";
 import resumePDF from "../Resume/Resume.pdf";
 import "./Resume.css";
+import AOSInitializer from "../AOS/AOSInitializer";
 
 export const Resume = () => {
   const onlineResumeLink =
@@ -12,12 +13,18 @@ export const Resume = () => {
     <section className="resume-background" id="resume-background">
         
       <div className="container-resume">
+  
+
         <div className="resume-welcome-box">
+  
         <div className='secondaryContainor-2'></div>
-          <img className="resumePic" src={profilePic} alt="profile picture" />
+        <AOSInitializer/>
+          <img className="resumePic" src={profilePic} alt="profile picture" data-aos="fade-down" data-aos-duration="3000"/>
+          <AOSInitializer/>
           <div className="link-box">
             <a
               className="resume-button"
+              data-aos="fade-up" data-aos-duration="3000"
               href={resumePDF}
               target="_blank"
               rel="noreferrer"
@@ -27,6 +34,7 @@ export const Resume = () => {
             </a>
             <a
               className="resume-button"
+              data-aos="fade-up" data-aos-duration="3000"
               href={resumePDF}
               target="_blank"
               rel="noreferrer"

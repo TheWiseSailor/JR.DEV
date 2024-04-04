@@ -185,7 +185,7 @@ function App() {
           <div key={index} className='project'>
             <h3>{project.title}</h3>
             <img src={project.imgUrl} alt={project.title} className="project-image" />
-            <p className="project-description">Example project description goes here.</p>
+            <p className="project-description"></p>
             <div className="project-links">
               <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
               {project.deployLink && <a href={project.deployLink} target="_blank" rel="noopener noreferrer">Deployed</a>}

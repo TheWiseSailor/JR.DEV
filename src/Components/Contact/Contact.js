@@ -1,6 +1,7 @@
 // Contact.js
 import React from 'react';
 import './Contact.css'
+import AOSInitializer from "../AOS/AOSInitializer";
 import { useForm, ValidationError } from '@formspree/react';
 
 function Contact() {
@@ -12,7 +13,7 @@ function Contact() {
 
   return (
     <div className="contact-container-form-page">
-      
+        <AOSInitializer/>
       <div className="contact-form-container-page" data-aos="fade-down"
               data-aos-duration="3000">
         <h2 className="ContactHomePageHeader-container-page">Contact</h2>

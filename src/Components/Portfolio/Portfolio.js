@@ -21,6 +21,7 @@ import Moore from "../Portfolio/PortfolioImages/Moore-Realestate.png";
 import JE from "../Portfolio/PortfolioImages/JE.png";
 import CE from "../Portfolio/PortfolioImages/Carter.png";
 import HE from "../Portfolio/PortfolioImages/Holly.png";
+import AOSInitializer from "../AOS/AOSInitializer";
 
 function App() {
   const [selectedOption, setSelectedOption] = useState('Projects');
@@ -180,7 +181,9 @@ function App() {
         <button onClick={() => setSelectedOption('Future Projects')}>Future Projects</button>
         <button onClick={() => setSelectedOption('Future Projects')}>Preset Layouts</button>
       </div>
-      <div className='projectList'>
+      <AOSInitializer/>
+      <div className='projectList'data-aos="fade-down" data-aos-duration="3000">
+
         {filteredProjects.map((project, index) => (
           <div key={index} className='project'>
             <h3>{project.title}</h3>

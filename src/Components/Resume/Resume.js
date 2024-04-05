@@ -6,7 +6,7 @@ import AOSInitializer from "../AOS/AOSInitializer";
 
 export const Resume = () => {
   const onlineResumeLink =
-    "https://drive.google.com/file/d/1OJFbFOo9bIljhYRhJn6LSCQhvQ3kinw-/view?usp=sharing";
+    "https://drive.google.com/file/d/1DnDLx7TugADb3iDInaTY5dXzmnV8ocB6/view?usp=sharing";
 
   return (
     

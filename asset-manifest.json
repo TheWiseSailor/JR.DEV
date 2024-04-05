@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JR.DEV/static/css/main.a061a99e.css",
-    "main.js": "/JR.DEV/static/js/main.3fbe88cf.js",
+    "main.js": "/JR.DEV/static/js/main.922b6ad4.js",
     "static/js/453.8b63aad3.chunk.js": "/JR.DEV/static/js/453.8b63aad3.chunk.js",
     "static/media/AMI1.png": "/JR.DEV/static/media/AMI1.518bd6e17c6f403c7cf7.png",
     "static/media/WeatherDashboard.png": "/JR.DEV/static/media/WeatherDashboard.76f773a566de1a010254.png",
@@ -30,11 +30,11 @@
     "static/media/logo.png": "/JR.DEV/static/media/logo.624ffe461005f0d18cf2.png",
     "index.html": "/JR.DEV/index.html",
     "main.a061a99e.css.map": "/JR.DEV/static/css/main.a061a99e.css.map",
-    "main.3fbe88cf.js.map": "/JR.DEV/static/js/main.3fbe88cf.js.map",
+    "main.922b6ad4.js.map": "/JR.DEV/static/js/main.922b6ad4.js.map",
     "453.8b63aad3.chunk.js.map": "/JR.DEV/static/js/453.8b63aad3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a061a99e.css",
-    "static/js/main.3fbe88cf.js"
+    "static/js/main.922b6ad4.js"
   ]
 }

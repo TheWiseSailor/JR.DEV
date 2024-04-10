@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JR.DEV/static/css/main.a061a99e.css",
-    "main.js": "/JR.DEV/static/js/main.922b6ad4.js",
+    "main.js": "/JR.DEV/static/js/main.6e5e0810.js",
     "static/js/453.8b63aad3.chunk.js": "/JR.DEV/static/js/453.8b63aad3.chunk.js",
     "static/media/AMI1.png": "/JR.DEV/static/media/AMI1.518bd6e17c6f403c7cf7.png",
     "static/media/WeatherDashboard.png": "/JR.DEV/static/media/WeatherDashboard.76f773a566de1a010254.png",
@@ -11,8 +11,10 @@
     "static/media/Moore-Realestate.png": "/JR.DEV/static/media/Moore-Realestate.b27ecad31f2b7f0818f3.png",
     "static/media/Photographyv2.png": "/JR.DEV/static/media/Photographyv2.295e0a1c0bcfe823e701.png",
     "static/media/MarvelFlicks.png": "/JR.DEV/static/media/MarvelFlicks.e490be96f256c126e059.png",
+    "static/media/CMR.png": "/JR.DEV/static/media/CMR.c0b0975cd18221ab0945.png",
     "static/media/JE.png": "/JR.DEV/static/media/JE.f63b355a09e498c27c1e.png",
     "static/media/Carter.png": "/JR.DEV/static/media/Carter.1fee7fe870558e8405e6.png",
+    "static/media/JR.png": "/JR.DEV/static/media/JR.48f545049f84eea5bce0.png",
     "static/media/Holly.png": "/JR.DEV/static/media/Holly.b31ae567c38bbbb29971.png",
     "static/media/jrportfoliov2.png": "/JR.DEV/static/media/jrportfoliov2.aa25ffadc5c6afb68a66.png",
     "static/media/VenuesXP.png": "/JR.DEV/static/media/VenuesXP.9adece4d7630c8bfd371.png",
@@ -30,11 +32,11 @@
     "static/media/logo.png": "/JR.DEV/static/media/logo.624ffe461005f0d18cf2.png",
     "index.html": "/JR.DEV/index.html",
     "main.a061a99e.css.map": "/JR.DEV/static/css/main.a061a99e.css.map",
-    "main.922b6ad4.js.map": "/JR.DEV/static/js/main.922b6ad4.js.map",
+    "main.6e5e0810.js.map": "/JR.DEV/static/js/main.6e5e0810.js.map",
     "453.8b63aad3.chunk.js.map": "/JR.DEV/static/js/453.8b63aad3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a061a99e.css",
-    "static/js/main.922b6ad4.js"
+    "static/js/main.6e5e0810.js"
   ]
 }

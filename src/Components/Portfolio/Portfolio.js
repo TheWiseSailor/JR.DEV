@@ -21,6 +21,9 @@ import Moore from "../Portfolio/PortfolioImages/Moore-Realestate.png";
 import JE from "../Portfolio/PortfolioImages/JE.png";
 import CE from "../Portfolio/PortfolioImages/Carter.png";
 import HE from "../Portfolio/PortfolioImages/Holly.png";
+import JR from "../Portfolio/PortfolioImages/JR.png";
+import CMR from "../Portfolio/PortfolioImages/CMR.png";
+
 import AOSInitializer from "../AOS/AOSInitializer";
 
 function App() {
@@ -50,6 +53,22 @@ function App() {
     },
     // { title: 'Future Project 1', category: 'Future Projects' },
     // { title: 'Future Project 2', category: 'Future Projects' },
+    {
+      title: "JR.DEV",
+      category: "Projects",
+      imgUrl: JR,
+      githubLink: "https://github.com/TheWiseSailor/JR.DEV",
+
+    },
+    {
+      title: "Cmoore Real Estate",
+      category: "Projects",
+      imgUrl: CMR,
+      githubLink: "https://github.com/TheWiseSailor/MooreRealEstate",
+      deployLink: "https://TheWiseSailor.github.io/MooreRealEstate",
+    }, 
+    
+    
     {
       title: "Holly.CO",
       category: "Projects",

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JR.DEV/static/css/main.5c7a4673.css",
-    "main.js": "/JR.DEV/static/js/main.aada335d.js",
+    "main.js": "/JR.DEV/static/js/main.d70d05d1.js",
     "static/js/453.8b63aad3.chunk.js": "/JR.DEV/static/js/453.8b63aad3.chunk.js",
     "static/media/AMI1.png": "/JR.DEV/static/media/AMI1.518bd6e17c6f403c7cf7.png",
     "static/media/WeatherDashboard.png": "/JR.DEV/static/media/WeatherDashboard.76f773a566de1a010254.png",
@@ -21,7 +21,7 @@
     "static/media/ORM.png": "/JR.DEV/static/media/ORM.0e97180276b8647aa327.png",
     "static/media/FitnessFlavors.jpg": "/JR.DEV/static/media/FitnessFlavors.22d1bc837929161426c6.jpg",
     "static/media/jrportfoliov1.png": "/JR.DEV/static/media/jrportfoliov1.a93a47c4a9b5fe9b5f51.png",
-    "static/media/Resume.pdf": "/JR.DEV/static/media/Resume.4a155be8a0a5bf2cfad4.pdf",
+    "static/media/Resume.pdf": "/JR.DEV/static/media/Resume.9b7a1b9d7bcb27330b95.pdf",
     "static/media/CodeQuiz.png": "/JR.DEV/static/media/CodeQuiz.6b63352c87b21ddaf7fd.png",
     "static/media/ReadmeGen.png": "/JR.DEV/static/media/ReadmeGen.57251d04a28f5b23b646.png",
     "static/media/Website.jpg": "/JR.DEV/static/media/Website.432fd6b5411f91687501.jpg",
@@ -32,11 +32,11 @@
     "static/media/logo.png": "/JR.DEV/static/media/logo.624ffe461005f0d18cf2.png",
     "index.html": "/JR.DEV/index.html",
     "main.5c7a4673.css.map": "/JR.DEV/static/css/main.5c7a4673.css.map",
-    "main.aada335d.js.map": "/JR.DEV/static/js/main.aada335d.js.map",
+    "main.d70d05d1.js.map": "/JR.DEV/static/js/main.d70d05d1.js.map",
     "453.8b63aad3.chunk.js.map": "/JR.DEV/static/js/453.8b63aad3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c7a4673.css",
-    "static/js/main.aada335d.js"
+    "static/js/main.d70d05d1.js"
   ]
 }

@@ -23,7 +23,7 @@ import CE from "../Portfolio/PortfolioImages/Carter.png";
 import HE from "../Portfolio/PortfolioImages/Holly.png";
 import JR from "../Portfolio/PortfolioImages/JR.png";
 import CMR from "../Portfolio/PortfolioImages/CMR.png";
-import PC from "../Portfolio/PortfolioImages/Pfeiffer.png"
+import PC from "../Portfolio/PortfolioImages/pfeiffer.png"
 import AOSInitializer from "../AOS/AOSInitializer";
 
 function App() {

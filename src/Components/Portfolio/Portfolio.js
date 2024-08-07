@@ -23,13 +23,14 @@ import CE from "../Portfolio/PortfolioImages/Carter.png";
 import HE from "../Portfolio/PortfolioImages/Holly.png";
 import JR from "../Portfolio/PortfolioImages/JR.png";
 import CMR from "../Portfolio/PortfolioImages/CMR.png";
-
+import PC from "../Portfolio/PortfolioImages/Pfeiffer.png"
 import AOSInitializer from "../AOS/AOSInitializer";
 
 function App() {
   const [selectedOption, setSelectedOption] = useState('Projects');
 
   const projects = [
+
     {
       title: "Marvel Flicks",
       category: "Group Projects",
@@ -53,6 +54,13 @@ function App() {
     },
     // { title: 'Future Project 1', category: 'Future Projects' },
     // { title: 'Future Project 2', category: 'Future Projects' },
+    {
+      title: "Pfeiffer Cafe (Beta)",
+      category: "Projects",
+      imgUrl: PC,
+      githubLink: "https://github.com/TheWiseSailor/PfeifferCafeWebsite",
+      deployLink: "https://thewisesailor.github.io/PfeifferCafeWebsite/",
+    },
     {
       title: "JR.DEV",
       category: "Projects",

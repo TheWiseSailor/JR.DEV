@@ -1,5 +1,5 @@
 .HeaderPrimary {
-  background: #008080;
+  background: rgb(56, 34, 15); ;
   padding: 20px 0;
   transition: background-color 0.3s ease;
   position: relative;
@@ -35,7 +35,7 @@
 
   max-width: 150px;
   font-weight: bold;
-  color: #ffe9e9;
+  color: #dbc1ac;
   text-decoration: none;
 }
 

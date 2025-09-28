@@ -1,5 +1,5 @@
 .AboutBG {
-  background-color: #d9bfb1;
+  background-color: #38220f;
   display: flex;
   justify-content: center; 
   align-items: center; 
@@ -15,6 +15,7 @@
   padding-top: 400px;
   padding-bottom: 250px;
   max-width: 1050px;
+  color: #dbc1ac;
 }
 
 /* ABContainer */

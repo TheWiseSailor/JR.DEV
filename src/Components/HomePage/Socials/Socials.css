@@ -3,11 +3,11 @@
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color:#002B5B ;
+  background-color:#dbc1ac;
 }
 
 .secondaryContainor {
-  background-color:#EA5455 ;
+  background-color:#634832;
   position: absolute;
   right: 0;
   margin-top:-250px !important;
@@ -17,7 +17,7 @@
 /* #f5d8b2 */
 .SocialContactContainer {
   position: relative;
-  background-color: #d9bfb1;
+  background-color:#ece0d1;
   max-width: 350px;
   padding-top: 30px;
   padding-bottom: 40px;

@@ -1,5 +1,5 @@
 .HomePagePrimary {
-  background-color:#002B5B ;
+  background-color:#dbc1ac ;
 
   height: 92.71vh;
   display: flex;
@@ -25,13 +25,13 @@
 
 .P1 {
   margin-top: 150px;
-  color: white;
+  color: #38220f;
   font-weight: bolder;
   font-size: 40px !important;
 }
 
 .LeftBackground {
-  background-color:#EA5455;
+  background-color:#634832;
   position: absolute;
   left: 0;
   top: 0;
